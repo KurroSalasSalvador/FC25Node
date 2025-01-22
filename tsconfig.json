@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2017", // O superior
+    "module": "commonjs", // O "esnext", "commonjs", "node16", etc.
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true // Recomendado para una mejor verificación de tipos
+  },
+  "include": [
+    "**/*" // Ajusta esto según tu estructura de carpetas
+  ]
+}
